@@ -1,0 +1,24 @@
+{
+  "name": "gabia/laravel-dto",
+  "description": "Laravel DTO Package",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Dennis",
+      "email": "bjh@gabia.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gabia\\LaravelDto\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gabia\\LaravelDto\\": "tests/"
+    }
+  },
+  "require": {
+    "netresearch/jsonmapper": "^1.4"
+  }
+}
